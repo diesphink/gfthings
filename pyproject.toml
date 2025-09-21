@@ -14,8 +14,8 @@ packages = [{include = "gfthings"}]
 [tool.poetry.group.test.dependencies]
 pytest = "^8.3.5"
 
-[project.urls]
-Homepage = "https://github.com/PaulBone/gfthings"
+#[project.urls]
+#Homepage = "https://github.com/PaulBone/gfthings"
 
 [tool.poetry.scripts]
 gfpin = "gfthings.gfpin:main"
